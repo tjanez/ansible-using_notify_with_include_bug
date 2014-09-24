@@ -1,0 +1,12 @@
+---
+- hosts: all
+
+  tasks:
+    - include: foo.yml
+      changed_when: true
+      notify:
+        - test handler
+
+  handlers:
+    - include: handlers/main.yml
+

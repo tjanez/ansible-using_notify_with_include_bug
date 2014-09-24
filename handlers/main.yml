@@ -1,0 +1,4 @@
+---
+- name: test handler
+  debug: msg="SUCCESS The test handler was run!"
+

@@ -1,0 +1,5 @@
+---
+- name: task in foo.yml
+  debug: msg="This is a testing task"
+  changed_when: true
+
