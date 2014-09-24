@@ -3,7 +3,7 @@
 
   tasks:
     - include: foo.yml
-      changed_when: true
+      #changed_when: true
       notify:
         - test handler
 
